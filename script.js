@@ -58,7 +58,7 @@ const watchData = {
       return;
     }
   
-    // Generate watch slides
+    //watch slide
     watchData.watches.forEach((watch) => {
       const slide = document.createElement("li");
       slide.className = "splide__slide";
@@ -66,7 +66,7 @@ const watchData = {
       splideList.appendChild(slide);
     });
   
-    // Generate social icons
+    // social icon
     watchData.socialIcons.forEach((icon) => {
       const link = document.createElement("a");
       link.href = icon.link;
@@ -74,13 +74,15 @@ const watchData = {
       socialIcons.appendChild(link);
     });
   
-    // Update content function
+    // content function
     function updateContent(index) {
       const watch = watchData.watches[index];
   
       // Apply background gradient
-      document.body.style.background = watch.bgGradient;
-  
+      // console.log(watch.bgGradient);
+      // document.body.style.background = watch.bgGradient;
+      document.documentElement.style.setProperty("--bg-gradient",watch.bgGradient)
+
       textContent.innerHTML = `
         <h1>${watch.title}</h1>
         <h2>${watch.subTitle}</h2>
@@ -114,9 +116,8 @@ const watchData = {
 
 
 
-// //JSON Data
 
-// // Populate Carousel
+// Carousel
 // const carouselList = document.querySelector('.splide__list');
 // watchSlides.forEach((slide, index) => {
 //     const li = document.createElement('li');
