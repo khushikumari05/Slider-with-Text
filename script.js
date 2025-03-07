@@ -17,7 +17,7 @@ const watchData = {
         description:
           "Explore the Ideal Timepiece for Any Moment and Enhance Your Style with Timeless Sophistication and Impeccable Craftsmanship - timepiece",
         price: "$469.00",
-        image: "./images/Watch2.png",
+        image: "./images/watch2.png",
         bgGradient: "linear-gradient(to right, rgb(179, 24, 24), #FFA895)",
       },
       {
@@ -27,7 +27,7 @@ const watchData = {
         description:
           "Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision Craftsmanship - watch",
         price: "$529.00",
-        image: "./images/Watch3.png",
+        image: "./images/watch3.png",
         bgGradient: "linear-gradient(to right, #30A357, #75E39A)",
       },
       {
@@ -37,7 +37,7 @@ const watchData = {
         description:
           "Explore the Ideal Timepiece for Any Moment and Enhance Your Style with Timeless Sophistication and Impeccable Craftsmanship - timepiece",
         price: "$599.00",
-        image: "./images/Watch4.png",
+        image: "./images/watch4.png",
         bgGradient: "linear-gradient(to right, #ADB0B0, #E1E1E1)",
       },
     ],
